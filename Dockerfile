@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 LABEL maintainer="nlkey2022@gmail.com"
 
 RUN apt-get update && apt install git python python-pip unzip wget vim -y && \
